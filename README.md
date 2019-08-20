@@ -1,2 +1,9 @@
 # spring-security
-Project for spring security practice
+Maven Project for Spring security practice
+
+This project includes:
+Custom Login
+Bootstrap / CSS
+Logout
+
+
