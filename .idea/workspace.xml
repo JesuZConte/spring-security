@@ -8,14 +8,8 @@
   <component name="ChangeListManager">
     <list default="true" id="09aa3c39-eb48-4dcb-acbe-252cab330f81" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/luv2code/springsecurity/demo/config/DemoSecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/luv2code/springsecurity/demo/config/DemoSecurityConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/luv2code/springsecurity/demo/controller/DemoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/luv2code/springsecurity/demo/controller/DemoController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/home.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/home.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/luv2code/springsecurity/demo/config/DemoSecurityConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/luv2code/springsecurity/demo/config/DemoSecurityConfig.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/spring-security-demo.war" beforeDir="false" afterPath="$PROJECT_DIR$/target/spring-security-demo.war" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/spring-security-demo/WEB-INF/classes/com/luv2code/springsecurity/demo/config/DemoSecurityConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/spring-security-demo/WEB-INF/classes/com/luv2code/springsecurity/demo/config/DemoSecurityConfig.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/spring-security-demo/WEB-INF/view/home.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/spring-security-demo/WEB-INF/view/home.jsp" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -224,7 +218,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1566246901662</updated>
-      <workItem from="1566246902936" duration="9561000" />
+      <workItem from="1566246902936" duration="10632000" />
     </task>
     <servers />
   </component>
