@@ -3,11 +3,11 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>com.luv2code</groupId>
-	<artifactId>spring-security-demo</artifactId>
+	<artifactId>spring-security-custom-registration-demo</artifactId>
 	<version>1.0</version>
 	<packaging>war</packaging>
 
-	<name>spring-security-demo</name>
+	<name>spring-security-custom-registration-demo</name>
 
 	<properties>
 		<springframework.version>5.1.6.RELEASE</springframework.version>
@@ -15,6 +15,8 @@
 
 		<maven.compiler.source>1.8</maven.compiler.source>
 		<maven.compiler.target>1.8</maven.compiler.target>
+
+		<hibernate.version>5.2.16.Final</hibernate.version>
 	</properties>
 
 	<dependencies>
@@ -80,14 +82,6 @@
 			<version>1.2</version>
 		</dependency>
 
-
-		<!-- to compensate for java 9+ not including jaxb -->
-		<dependency>
-		    <groupId>javax.xml.bind</groupId>
-		    <artifactId>jaxb-api</artifactId>
-		    <version>2.3.0</version>
-		</dependency>
-
 		<dependency>
 			<groupId>junit</groupId>
 			<artifactId>junit</artifactId>
@@ -95,12 +89,40 @@
 			<scope>test</scope>
 		</dependency>
 
+		<!-- Hibernate Validator -->
+		<dependency>
+			<groupId>org.hibernate</groupId>
+			<artifactId>hibernate-validator</artifactId>
+			<version>6.0.7.Final</version>
+		</dependency>
+
+		<!-- Spring Transactions -->
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-tx</artifactId>
+			<version>${springframework.version}</version>
+		</dependency>
+
+		<!-- Spring ORM -->
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-orm</artifactId>
+			<version>${springframework.version}</version>
+		</dependency>
+
+		<!-- Hibernate Core -->
+		<dependency>
+			<groupId>org.hibernate</groupId>
+			<artifactId>hibernate-core</artifactId>
+			<version>${hibernate.version}</version>
+		</dependency>
+
 	</dependencies>
 
 	<!-- TO DO: Add support for Maven WAR Plugin -->
 
 	<build>
-		<finalName>spring-security-demo</finalName>
+		<finalName>spring-security-custom-user-registration-demo</finalName>
 		<pluginManagement>
 			<plugins>
 				<plugin>
