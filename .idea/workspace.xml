@@ -8,51 +8,24 @@
   <component name="ChangeListManager">
     <list default="true" id="09aa3c39-eb48-4dcb-acbe-252cab330f81" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/luv2code/springsecurity/demo/config/DemoAppConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/luv2code/springsecurity/demo/config/DemoAppConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/luv2code/springsecurity/demo/config/DemoSecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/luv2code/springsecurity/demo/config/DemoSecurityConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/persistence-mysql.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/persistence-mysql.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/fancy-login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/fancy-login.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/luv2code/springsecurity/demo/config/DemoAppConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/luv2code/springsecurity/demo/config/DemoAppConfig.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/luv2code/springsecurity/demo/config/DemoSecurityConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/luv2code/springsecurity/demo/config/DemoSecurityConfig.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/persistence-mysql.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/persistence-mysql.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/spring-security-demo.war" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/spring-security-demo/WEB-INF/classes/com/luv2code/springsecurity/demo/config/DemoAppConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/spring-security-demo/WEB-INF/classes/com/luv2code/springsecurity/demo/config/DemoSecurityConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/spring-security-demo/WEB-INF/classes/com/luv2code/springsecurity/demo/config/MySpringMvcDispatcherServletInitializer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/spring-security-demo/WEB-INF/classes/com/luv2code/springsecurity/demo/config/SecurityWebApplicationInitializer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/spring-security-demo/WEB-INF/classes/com/luv2code/springsecurity/demo/controller/DemoController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/spring-security-demo/WEB-INF/classes/com/luv2code/springsecurity/demo/controller/LoginController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/spring-security-demo/WEB-INF/classes/persistence-mysql.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/spring-security-demo/WEB-INF/lib/c3p0-0.9.5.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/spring-security-demo/WEB-INF/lib/javax.servlet-api-3.1.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/spring-security-demo/WEB-INF/lib/javax.servlet.jsp-api-2.3.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/spring-security-demo/WEB-INF/lib/jaxb-api-2.3.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/spring-security-demo/WEB-INF/lib/jstl-1.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/spring-security-demo/WEB-INF/lib/mchange-commons-java-0.2.11.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/spring-security-demo/WEB-INF/lib/mysql-connector-java-5.1.45.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/spring-security-demo/WEB-INF/lib/spring-aop-5.1.6.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/spring-security-demo/WEB-INF/lib/spring-beans-5.1.6.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/spring-security-demo/WEB-INF/lib/spring-context-5.1.6.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/spring-security-demo/WEB-INF/lib/spring-core-5.1.6.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/spring-security-demo/WEB-INF/lib/spring-expression-5.1.6.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/spring-security-demo/WEB-INF/lib/spring-jcl-5.1.6.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/spring-security-demo/WEB-INF/lib/spring-jdbc-5.1.6.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/spring-security-demo/WEB-INF/lib/spring-security-acl-5.1.5.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/spring-security-demo/WEB-INF/lib/spring-security-config-5.1.5.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/spring-security-demo/WEB-INF/lib/spring-security-core-5.1.5.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/spring-security-demo/WEB-INF/lib/spring-security-taglibs-5.1.5.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/spring-security-demo/WEB-INF/lib/spring-security-web-5.1.5.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/spring-security-demo/WEB-INF/lib/spring-tx-5.1.6.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/spring-security-demo/WEB-INF/lib/spring-web-5.1.6.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/spring-security-demo/WEB-INF/lib/spring-webmvc-5.1.6.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/spring-security-demo/WEB-INF/view/access-denied.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/spring-security-demo/WEB-INF/view/fancy-login.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/spring-security-demo/WEB-INF/view/home.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/spring-security-demo/WEB-INF/view/landing.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/spring-security-demo/WEB-INF/view/leaders.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/spring-security-demo/WEB-INF/view/plain-login.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/spring-security-demo/WEB-INF/view/systems.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/luv2code/springsecurity/demo/controller/RegistrationController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/luv2code/springsecurity/demo/controller/RegistrationController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/luv2code/springsecurity/demo/dao/RoleDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/luv2code/springsecurity/demo/dao/RoleDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/luv2code/springsecurity/demo/dao/RoleDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/luv2code/springsecurity/demo/dao/RoleDaoImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/luv2code/springsecurity/demo/service/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/luv2code/springsecurity/demo/service/UserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/luv2code/springsecurity/demo/user/CrmUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/luv2code/springsecurity/demo/user/CrmUser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/registration-form.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/registration-form.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/luv2code/springsecurity/demo/controller/RegistrationController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/luv2code/springsecurity/demo/controller/RegistrationController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/luv2code/springsecurity/demo/dao/RoleDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/luv2code/springsecurity/demo/dao/RoleDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/luv2code/springsecurity/demo/dao/RoleDaoImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/luv2code/springsecurity/demo/dao/RoleDaoImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/luv2code/springsecurity/demo/service/UserServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/luv2code/springsecurity/demo/service/UserServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/luv2code/springsecurity/demo/user/CrmUser.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/luv2code/springsecurity/demo/user/CrmUser.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring-security-custom-user-registration-demo.war" beforeDir="false" afterPath="$PROJECT_DIR$/target/spring-security-custom-user-registration-demo.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring-security-custom-user-registration-demo/WEB-INF/classes/com/luv2code/springsecurity/demo/controller/RegistrationController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/spring-security-custom-user-registration-demo/WEB-INF/classes/com/luv2code/springsecurity/demo/controller/RegistrationController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring-security-custom-user-registration-demo/WEB-INF/classes/com/luv2code/springsecurity/demo/dao/RoleDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/spring-security-custom-user-registration-demo/WEB-INF/classes/com/luv2code/springsecurity/demo/dao/RoleDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring-security-custom-user-registration-demo/WEB-INF/classes/com/luv2code/springsecurity/demo/dao/RoleDaoImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/spring-security-custom-user-registration-demo/WEB-INF/classes/com/luv2code/springsecurity/demo/dao/RoleDaoImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring-security-custom-user-registration-demo/WEB-INF/classes/com/luv2code/springsecurity/demo/service/UserServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/spring-security-custom-user-registration-demo/WEB-INF/classes/com/luv2code/springsecurity/demo/service/UserServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring-security-custom-user-registration-demo/WEB-INF/classes/com/luv2code/springsecurity/demo/user/CrmUser.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/spring-security-custom-user-registration-demo/WEB-INF/classes/com/luv2code/springsecurity/demo/user/CrmUser.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring-security-custom-user-registration-demo/WEB-INF/view/registration-form.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/spring-security-custom-user-registration-demo/WEB-INF/view/registration-form.jsp" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -63,9 +36,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Jsp File" />
         <option value="Interface" />
         <option value="Class" />
-        <option value="Jsp File" />
       </list>
     </option>
   </component>
@@ -274,7 +247,7 @@
       <workItem from="1566406039371" duration="60000" />
       <workItem from="1566406118657" duration="9110000" />
       <workItem from="1566492361156" duration="7683000" />
-      <workItem from="1566513114904" duration="4921000" />
+      <workItem from="1566513114904" duration="10680000" />
     </task>
     <servers />
   </component>
@@ -293,5 +266,21 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/luv2code/springsecurity/demo/service/UserServiceImpl.java</url>
+          <line>47</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/luv2code/springsecurity/demo/service/UserServiceImpl.java</url>
+          <line>48</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

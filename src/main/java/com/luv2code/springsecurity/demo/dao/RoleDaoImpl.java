@@ -7,6 +7,8 @@ import org.hibernate.query.Query;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Repository;
 
+import java.util.List;
+
 @Repository
 public class RoleDaoImpl implements RoleDao {
 
@@ -26,5 +28,19 @@ public class RoleDaoImpl implements RoleDao {
             role = null;
         }
         return role;
+    }
+
+    @Override
+    public List<Role> findAllRoles() {
+        Session currentSession = sessionFactory.getCurrentSession();
+        List<Role> roles;
+        Query<Role> theRoles = currentSession.createQuery("from Role order by id", Role.class);
+
+        try {
+            roles = theRoles.getResultList();
+        } catch (Exception e) {
+            roles = null;
+        }
+        return roles;
     }
 }
